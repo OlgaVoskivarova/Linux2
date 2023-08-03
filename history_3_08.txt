@@ -1,0 +1,13 @@
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1.txt
+   2 echo "Start" >> /home/user/start/1.txt
+   3 date '+%D'
+   4 date '+%D' >> 1.txt
+   5 mkdir /opt/task
+   6 touch /opt/task/start.txt
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 cat /opt/task/start.txt | wc -l
+   9 cat /home/user/start/1.txt | wc -l
+  10 tree
+  11 history
+  12 history > history_3_08.txt
